@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Principal {
 
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 			
@@ -35,7 +36,7 @@ public class Principal {
 		for (int i=0 ; i<nalum;i++)
 		{
 			// el nombre
-			System.out.println("Introduzca el nombre del alumno nº "+i+1);
+			System.out.println("Introduzca el nombre del alumno nº "+(i+1));
 			nombre[i]=lector.nextLine();
 			
 			// las notas
