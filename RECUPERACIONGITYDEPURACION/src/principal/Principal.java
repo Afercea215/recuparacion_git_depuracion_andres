@@ -53,7 +53,7 @@ public class Principal {
 		for (int i=0; i<nalum;i++)
 		{
 			// calculamos la nota media del alumno "i-esimo"
-			for (int j=0;j<3;j++)
+			for (int j=0;j<3+1;j++)
 			{
 				sumanotas=sumanotas+nota[i][j];
 				// lugar donde te pido que pongas un punto de interrupción condicional en el Ejecicio 2
