@@ -40,19 +40,20 @@ public class Principal {
 			nombre[i]=lector.nextLine();
 			
 			// las notas
-			for (int j=0;j<=3;j++);
+			for (int j=0;j<=3;j++)
 			{
 				System.out.println("Introduzca la nota del alumno "+nombre[i]+" ");
 				lector.nextDouble();
+				lector.nextLine();
 			}
 		}
 		
 		// ahora listamos los nombres y  sus notas medias
 		
-		for (int i=0; i<=nalum;i++)
+		for (int i=0; i<nalum;i++)
 		{
 			// calculamos la nota media del alumno "i-esimo"
-			for (int j=0;j<3;i++)
+			for (int j=0;j<3;j++)
 			{
 				sumanotas=sumanotas+nota[i][j];
 				// lugar donde te pido que pongas un punto de interrupción condicional en el Ejecicio 2
